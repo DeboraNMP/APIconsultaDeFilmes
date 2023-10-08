@@ -32,7 +32,7 @@ EXEMPLO: /filmes/1
 	"ano": 2001
 }
 
-## Ou /filmes/10
+### Ou /filmes/10
 
 {
 	"mensagem": "Não existe filme para o ID informado."
@@ -40,7 +40,7 @@ EXEMPLO: /filmes/1
 
 
 
-# A terceira rota POST - /filmes
+### A terceira rota POST - /filmes
 Será a rota para cadastrar o novo filme e deverá retornar o filme cadastrado.
 EXEMPLO: /filmes
 
@@ -52,7 +52,7 @@ EXEMPLO: /filmes
 
 
 
-# E a última rota /filmes/:id 
+### E a última rota /filmes/:id 
 Será a rota para excluir um filme de acordo com o ID informado, e deverá retornar a mensagem de excluído ou nao.
 EXEMPLO: /filmes/1
 
@@ -60,7 +60,7 @@ EXEMPLO: /filmes/1
 	"mensagem": "Filme excluído com sucesso!"
 }  
 
-# Ou /filmes/10
+### Ou /filmes/10
 
 {
 	"mensagem": "Não existe filme para o ID informado."
