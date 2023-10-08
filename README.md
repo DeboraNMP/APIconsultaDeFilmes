@@ -4,7 +4,7 @@ Apartir das aulas de API - REST, segue o repositório público para a conclusao 
 A ideia é uma API para registro de filmes em um cinema.
 
 A primeira rota GET - /filmes
-Deverá retornar a listagem dos filmes com o status de disponível ou nao.
+E a rota para saber os filmes cadastrados
 EXEMPLO: /filmes
 
 [
