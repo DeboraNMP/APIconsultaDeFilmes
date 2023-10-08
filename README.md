@@ -20,6 +20,8 @@ EXEMPLO: /filmes
 	}
 ]
 
+
+
 A segunda rota GET - /filmes/:id
 Deverá retorna o filme do respectivo ID.
 EXEMPLO: /filmes/1
@@ -36,6 +38,8 @@ Ou /filmes/10
 	"mensagem": "Não existe filme para o ID informado."
 }
 
+
+
 A terceira rota POST - /filmes
 Será a rota para cadastrar o novo filme e deverá retornar o filme cadastrado.
 EXEMPLO: /filmes
@@ -45,6 +49,8 @@ EXEMPLO: /filmes
 	"titulo": "Harry Potter e as reliquias da morte",
 	"ano": 205
 }
+
+
 
 E a última rota /filmes/:id 
 Será a rota para excluir um filme de acordo com o ID informado, e deverá retornar a mensagem de excluído ou nao.
