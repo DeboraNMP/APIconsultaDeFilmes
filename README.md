@@ -1,9 +1,9 @@
-## APIconsultaDeFilmes
+# APIconsultaDeFilmes
 
 Apartir das aulas de API - REST, segue o repositório público para a conclusao do módulo 2.
 A ideia é uma API para registro de filmes em um cinema.
 
-# A primeira rota GET - /filmes
+### A primeira rota GET - /filmes
 E a rota para saber os filmes cadastrados
 EXEMPLO: /filmes
 
@@ -22,7 +22,7 @@ EXEMPLO: /filmes
 
 
 
-# A segunda rota GET - /filmes/:id
+### A segunda rota GET - /filmes/:id
 Deverá retorna o filme do respectivo ID.
 EXEMPLO: /filmes/1
 
